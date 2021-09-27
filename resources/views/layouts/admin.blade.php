@@ -23,7 +23,7 @@
                 <ul id="list" class="flex flex-col py-5 space-y-2">
                     <li class="px-5 mt-4 hidden md:block">
                         <div class="flex flex-col items-center h-8 ">
-                            <a href="{{route("Admin")}}"><p class="text-2xl font-extrabold"><span class="text-pink-600">Pix</span>-<span class="text-yellow-400">Ac</span><span class="text-green-400">ade</span><span class="text-gray-600">my</span></p></a>
+                            <a href="{{route("Admin")}}"><p class="text-2xl font-extrabold"><span class="text-pink-600">ADMIN</span></p></a>
                         </div>
                     </li>
 
