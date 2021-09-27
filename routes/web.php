@@ -34,6 +34,7 @@ Route::get("/register",[RegisterController::class,"index"])->name("Register");
 Route::post("/register/store",[RegisterController::class,"store"]);
 
 Route::get('/course', [CourseController::class, 'getCourse']);
+
 Route::post("/logout",[LogoutController::class,"logout"])->name("Logout");
 
 Route::get("/dashboard",[DashboardController::class,"index"])->name("Dashboard");
