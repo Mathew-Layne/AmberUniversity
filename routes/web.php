@@ -6,6 +6,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LogoutController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\CourseController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,7 +33,7 @@ Route::post("/log",[LoginController::class,"login"])->name("On-Login");
 Route::get("/register",[RegisterController::class,"index"])->name("Register");
 Route::post("/register/store",[RegisterController::class,"store"]);
 
-
+Route::get('/course', [CourseController::class, 'getCourse']);
 Route::post("/logout",[LogoutController::class,"logout"])->name("Logout");
 
 Route::get("/dashboard",[DashboardController::class,"index"])->name("Dashboard");
